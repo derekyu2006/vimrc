@@ -15,5 +15,5 @@ set shiftwidth=2
 autocmd FileType make set noexpandtab
 set hlsearch
 
-# keep cursor's location on exit 
+" keep cursor's location on exit 
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
